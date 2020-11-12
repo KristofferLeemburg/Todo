@@ -3,7 +3,10 @@ body{
   background-color: aqua;
 }
 .calender{
-  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  /* position: relative;
   top: 200px;
-  left: 200px;
+  left: 200px; */
 }
