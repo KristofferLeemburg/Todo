@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body{
   background-color: aqua;
+}
+.title{
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 .main-container{
   display: flex;

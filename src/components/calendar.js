@@ -6,6 +6,7 @@ import '../../node_modules/react-calendar/dist/Calendar.css';
 import Vacation from "../data/vacation.json";
 import Dates from "../data/dates.json"
 
+
 const vacation = Vacation;
 const Calendar2 = () => {
   const [on, setOn] = useState(false);
@@ -20,6 +21,7 @@ const Calendar2 = () => {
         }}
   return (
     <div>
+      <div className="title">Todo List</div>
       <Calendar
         onChange={onChange}
         value={first}
