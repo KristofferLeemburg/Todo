@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body{
-  background-color: #ffffb2;
+  background-color: #feff9c;
 }
 .title{
   font-size: 4rem;
@@ -37,8 +37,8 @@ body{
   /* text-decoration-line: line-through; */
 }
 .color{
-  background: chartreuse !important;
+  background: #7afcff !important;
 }
 .color-todo{
-  background: rgb(255, 81, 0) !important;
+  background:#ff65a3 !important;
 }
