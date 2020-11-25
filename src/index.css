@@ -3,7 +3,10 @@ body {
   background-color: #66CCFF;
   font-family: sans-serif;
 }
-
+.react-calendar {
+  border-radius: 5px;
+  box-shadow: 15px 10px 5px #1087ff;
+}
 #container {
   display: flex;
   justify-content: center;
@@ -16,7 +19,7 @@ body {
   font-size: 16px;
   border-radius: 5px;
   border: 2px solid #FFF;
-  width: 275px;
+  width: 270px;
   border: 1px solid #a0a096;
 }
 
@@ -39,7 +42,7 @@ body {
 
 .todolist{
   background-color: white;
-  width: 360px;
+  width: 350px;
   height: 400px;
   border: 1px solid #a0a096;
   border-radius: 5px;
