@@ -30,7 +30,8 @@ body{
 .theList{
   margin-right: 10px;  
   font-size: 30px;
-  color: teal ;
+  color: black ;
+  font-family: 'Indie Flower', cursive;;
   font-style: italic;
   list-style: none;
   /* text-decoration-line: line-through; */
