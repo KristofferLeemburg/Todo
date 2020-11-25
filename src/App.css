@@ -2,21 +2,36 @@
 body{
   background-color: aqua;
 }
-.calender{
+.main-container{
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  /* position: relative;
-  top: 200px;
-  left: 200px; */
+  justify-content: space-around;
 }
 .todo-container{
-  
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  border: 1px solid black;
-  
+  flex-direction: column;
+  margin: 25px;
+}
+.todo{
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  border-bottom: 1px solid black;
+}
+.delete{
+  float: right;
+}
+.theList{
+  margin-right: 10px;  
+  font-size: 30px;
+  color: teal ;
+  font-style: italic;
+  list-style: none;
+  /* text-decoration-line: line-through; */
+}
+.color{
+  background: chartreuse !important;
+}
+.color-todo{
+  background: rgb(255, 81, 0) !important;
 }

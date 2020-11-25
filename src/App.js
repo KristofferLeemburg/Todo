@@ -1,18 +1,13 @@
 import React from 'react';
+import Calendar from "./components/calendar"
 import './App.css';
-import Calendar2 from "./ components/calendar"
-import Todo from "./ components/todo"
-
 
 function App() {
-  
   return (
-    <div>
-      <Calendar2 />
-      <Todo />
-    </div>
-    
-  );
-}
+    <div className="main-container">
+     <Calendar />
+    </div> 
+  )}
 
 export default App;
+
