@@ -1,5 +1,5 @@
-Todo list app.
-With a calendar and holidays.
+:heavy_check_mark: Todo list app.
+With a :date: calendar and  :beach_umbrella: holidays.
 
 
 https://todo-kristoffer.netlify.app/
